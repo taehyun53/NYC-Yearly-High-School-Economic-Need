@@ -27,7 +27,7 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 • Visualization - Quick visualization through histograms to see variances for each columns
 
-![alt text](NYC-Yearly-High-School-Economic-Need/NewYorkCity_Education/image/histplot_dw.jpeg)
+![alt text](NewYorkCity_Education/image/histplot_dw.jpeg)
 
 • Merged the data sheets
 
