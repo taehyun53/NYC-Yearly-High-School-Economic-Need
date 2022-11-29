@@ -27,21 +27,26 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 • Visualization - Quick visualization through histograms to see variances for each columns
 
+![alt text](images/histplot_dw.jpeg)
+
 • Merged the data sheets
 
 # 4. Exploratory Data Analysis
 • Correlation heat map 
+![alt text](images/heatmap.jpeg)
 - Visualized correlations
 - Especially the ones that were correlated with Economic Need Index
 - Povert rate and Economic Need Index are strongly positively correlated to each other.
 
 • Borough Analysis
 - Visualized the relationship between Boroughs and Economic Need Index from years 2016 to 2021. 
-LINK
+
+![alt text](images/piechart_all_years.jpeg)
+
 - The descending order of economic need index is Bronx -> Brooklyn -> Manhattan -> Queens -> Staten Island
 
 - Visualized the relationship between Grades and Economic Need Index for each boroughs from years 2016 - 2021.
-LINK
+
 - Most of the boroughs had decreasing trend of high school students
 
 - Visualized the relationship between Sex and Economic Need Index for each boroughs from years 2016 - 2021.
