@@ -1,6 +1,7 @@
 # New York City Poverty Analysis
 
-![alt text](https://static01.nyt.com/images/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
+![alt text](https://static01.nyt.com/
+/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
 
 Economic Need Index is the measure of the socioeconomic circumstances of a school’s population and the score is assigned to each school on the number of students eligible for free lunch or public assistance or who live in temporary housing. Through the Demographic Snapshot District data, I extracted useful insights and created visualizations through Tableau, matplotlib and Seaborn. I also performed statistical tests and built machine learning models that can predict the economic need index. 
 
@@ -31,7 +32,9 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 # 4. Exploratory Data Analysis
 • Correlation heat map 
-![alt text](NewYorkCity_Education/images/heatmap.jpeg)
+
+![alt text](NewYorkCity_Education/image/heatmap.jpeg)
+
 - Visualized correlations
 - Especially the ones that were correlated with Economic Need Index
 - Povert rate and Economic Need Index are strongly positively correlated to each other.
@@ -39,16 +42,15 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 • Borough Analysis
 - Visualized the relationship between Boroughs and Economic Need Index from years 2016 to 2021. 
 
-![alt text](NewYorkCity_Education/images/piechart_all_years.jpeg)
+![alt text](NewYorkCity_Education/image/piechart_all_years.jpeg)
 
 - The descending order of economic need index is Bronx -> Brooklyn -> Manhattan -> Queens -> Staten Island
 
-![alt text](NewYorkCity_Education/images/piechart_all_years.jpeg)
+![alt text](NewYorkCity_Education/image/piechart_all_years.jpeg)
 
 - Visualized the relationship between Grades and Economic Need Index for each boroughs from years 2016 - 2021.
 
-![alt text](NewYorkCity_Education/images/barchart_grades_borough.jpeg)
-
+![alt text](NewYorkCity_Education/image/barchart_grades_borough.jpeg)
 
 - Most of the boroughs had decreasing trend of high school students
 
@@ -61,11 +63,12 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 - More males needed support.
 
 -Visualized the relationship betwee Economic Need Index and student with disabilities 
-Link
-- Bronx had the most students with economic need index
+![alt text](NewYorkCity_Education/image/scatter_disability.jpeg)
+
 
 - Visualized the relationship between students who are english learners and Economic Need Index
--Link
+![alt text](NewYorkCity_Education/image/eng_learners_scatter.jpeg)
+
 
 • Two tailed ANOVA test
 - Borough and Year
