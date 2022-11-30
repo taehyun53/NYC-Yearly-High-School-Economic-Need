@@ -28,6 +28,8 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 • Visualization - Quick visualization through histograms to see variances for each columns
 
+![alt text](NewYorkCity_Education/image/scatter_all.jpeg)
+
 • Merged the data sheets
 
 # 4. Exploratory Data Analysis
@@ -62,6 +64,8 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 - More males needed support.
 
+![alt text](NewYorkCity_Education/image/sex_box.jpeg)
+
 -Visualized the relationship betwee Economic Need Index and student with disabilities 
 ![alt text](NewYorkCity_Education/image/scatter_disability.jpeg)
 
@@ -90,6 +94,9 @@ Now, we know that Borough and time (years) differences are statistically signifi
 ![alt text](NewYorkCity_Education/image/Tukey3.jpeg)
 ![alt text](NewYorkCity_Education/image/Tukey4.jpeg)
 - All boroughs are statisticall different to each other by its ecoonomic need index by it's p value which is less than 0.05. 
+
+Tableau Dash Board:
+https://public.tableau.com/app/profile/taehyun.yoon/viz/NYCDATA_16676552294860/Dashboard1?publish=yes
 
 # 5. Preprocessing
 • Feature Engineering
