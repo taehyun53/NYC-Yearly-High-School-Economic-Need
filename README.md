@@ -43,13 +43,8 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 • Borough Analysis
 - Visualized the relationship between Boroughs and Economic Need Index from years 2016 to 2021. 
-
 - The descending order of economic need index is Bronx -> Brooklyn -> Manhattan -> Queens -> Staten Island
-
-![alt text](NewYorkCity_Education/image/piechart_all_years.jpeg)
-
 - Visualized the relationship between Grades and Economic Need Index for each boroughs from years 2016 - 2021.
-
 ![alt text](NewYorkCity_Education/image/barchart_grades_borough.jpeg)
 
 - Most of the boroughs had decreasing trend of high school students
