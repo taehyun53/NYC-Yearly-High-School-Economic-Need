@@ -113,11 +113,11 @@ Used Optuna (software framework for hyperparamter tuning) to perform Bayesian Op
 Process:
 • Started with the linear regression model -> decision tree regressor -> Catboost(boosting) -> Neural Network(Multilayer Perceptron)
 
-The RMSE scores decreased gradually. Catboost had the best RMSE score therefore, Catboost is the best performing model. Multilayer perceptron showed overfitting and the other two models (linear regressiona dn decision tree) showed higher RMSE value than CatBoost. 
+The MAE scores decreased gradually. Catboost had the best MAE score therefore, Catboost is the best performing model. Multilayer perceptron showed overfitting and the other two models (linear regressiona dn decision tree) showed higher MAE value than CatBoost. 
 
 
 # 7. Evaluation 
-Cat Boost is the best model that performed with a RMSE value of 4.44
+Cat Boost is the best model that performed with a MAE value of 4.44
 
 ![alt text](NewYorkCity_Education/image/model_eval.jpeg)
 
