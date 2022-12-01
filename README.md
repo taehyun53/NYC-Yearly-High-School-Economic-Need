@@ -125,11 +125,14 @@ These are the feature importance.
 
 The feature importance Visualization can be done using SHAP values. SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. 
 
-![alt text](NewYorkCity_Education/image/SHAP_bar.jpeg)
+![alt text](NewYorkCity_Education/image/MAE_result.jpeg)
 
 But SHAP values do not provide causality it just tells the contribution. So I had to make sure what determines the economic need index and use SHAP for visualization purposes. 
 
+![alt text](NewYorkCity_Education/image/SHAP_bar.jpeg)
+
 The descening order of the SHAP value: # White -> # English Language Learners -> Year 2016-2017.
+
 
 # 8. Solution
 
