@@ -9,7 +9,7 @@ Economic Need Index is the measure of the socioeconomic circumstances of a schoo
 NYC open data is a open data with free published data in New York City. City organizations and people often utilize this website to gather data to extract useful insights about the city in New York. 
 
 # 2. Method
-Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The column economic need index is the target variable which is the key value of this project. I was able to predict which borough will have small or large economic need index value with my domain knowledge. The aim of this project is to provide a solution by building a regression model to predict the economic need index value. 
+Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The column economic need index is the target variable which is the key value of this project. I was able to predict which borough will have small or large economic need index value with my domain knowledge. The aim of this project is to come up with ideas of solutions for the borough with the highest economic need value by building a regression model to predict the economic need index value. 
 
 
 # 3. Data Wrangling (simple - to understand data)
