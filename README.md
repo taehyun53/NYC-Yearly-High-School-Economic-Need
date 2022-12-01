@@ -119,7 +119,7 @@ The MAE scores decreased gradually. Catboost had the best MAE score therefore, C
 # 7. Evaluation 
 Cat Boost is the best model that performed with a MAE value of 4.44
 
-![alt text](NewYorkCity_Education/image/model_eval.jpeg)
+![alt text](NewYorkCity_Education/image/MAE_result.jpeg)
 
 These are the feature importance. 
 
@@ -130,6 +130,7 @@ The feature importance Visualization can be done using SHAP values. SHAP (SHaple
 But SHAP values do not provide causality it just tells the contribution. So I had to make sure what determines the economic need index and use SHAP for visualization purposes. 
 
 The descening order of the SHAP value: # White -> # English Language Learners -> Year 2016-2017.
+
 
 # 8. Solution
 
