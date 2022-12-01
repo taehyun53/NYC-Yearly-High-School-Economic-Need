@@ -1,8 +1,9 @@
 # New York City Poverty Analysis
 
-![alt text](https://static01.nyt.com/images/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
+![alt text](https://static01.nyt.com/
+/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
 
-Economic Need Index is the measure of the socioeconomic circumstances of a school’s population and the score is assigned to each school on the number of students eligible for free lunch or public assistance or who live in temporary housing. Through the Demographic Snapshot District data, I extracted the features of the borough that has low economic need index scores to make a comparison with the borough with the highest economic need index and performed statistical tests and created visualization charts. In addition, I extracted insights from each borough and created a predictive model that can predict the economic need index. 
+Economic Need Index is the measure of the socioeconomic circumstances of a school’s population and the score is assigned to each school on the number of students eligible for free lunch or public assistance or who live in temporary housing. Through the Demographic Snapshot District data, I extracted useful insights and created visualizations through Tableau, matplotlib and Seaborn. I also performed statistical tests and built machine learning models that can predict the economic need index. 
 
 # 1. Data Source
 NYC open data is a open data with free published data in New York City. City organizations and people often utilize this website to gather data to extract useful insights about the city in New York. 
@@ -27,53 +28,71 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 • Visualization - Quick visualization through histograms to see variances for each columns
 
-![alt text](NewYorkCity_Education/image/histplot_dw.jpeg)
+![alt text](NewYorkCity_Education/image/scatter_all.jpeg)
 
 • Merged the data sheets
 
 # 4. Exploratory Data Analysis
 • Correlation heat map 
-![alt text](images/heatmap.jpeg)
+
+![alt text](NewYorkCity_Education/image/heatmap.jpeg)
+
 - Visualized correlations
 - Especially the ones that were correlated with Economic Need Index
 - Povert rate and Economic Need Index are strongly positively correlated to each other.
 
 • Borough Analysis
 - Visualized the relationship between Boroughs and Economic Need Index from years 2016 to 2021. 
-
-![alt text](images/piechart_all_years.jpeg)
-
 - The descending order of economic need index is Bronx -> Brooklyn -> Manhattan -> Queens -> Staten Island
-
 - Visualized the relationship between Grades and Economic Need Index for each boroughs from years 2016 - 2021.
-
+- 
 - Most of the boroughs had decreasing trend of high school students
 
+![alt text](NewYorkCity_Education/image/histplot_dw.jpeg)
+
 - Visualized the relationship between Sex and Economic Need Index for each boroughs from years 2016 - 2021.
-LINK
+
+![alt text](NewYorkCity_Education/image/scatter_sex.jpeg)
+
 - More males needed support.
 
+![alt text](NewYorkCity_Education/image/sex_box.jpeg)
+
 -Visualized the relationship betwee Economic Need Index and student with disabilities 
-Link
-- Bronx had the most students with economic need index
+![alt text](NewYorkCity_Education/image/scatter_disability.jpeg)
 
 
 - Visualized the relationship between students who are english learners and Economic Need Index
--Link
+![alt text](NewYorkCity_Education/image/eng_learners_scatter.jpeg)
+
 
 • Two tailed ANOVA test
+
+![alt text](NewYorkCity_Education/image/ANOVA_jpeg.png)
+
 - Borough and Year
 - The p value obtained from ANOVA analysis for Borough, years, and Economic Need Index are statistically significant (p<0.05). We conclude that type of Borough significantly affects the Economic Need Index outcome, time (years) significantly affects the Economic Need Index outcome, and interaction of both Borough and time (years) significantly affects the yield outcome.
 
-• Interaction plot
-- 
+![alt text](NewYorkCity_Education/image/scatter_sex.jpeg)
+
 
 • Multiple pairwise comparisons (Post-hoc test) Permalink¶
-The null hypothesis is that each group has the same mean.
+Now, we know that Borough and time (years) differences are statistically significant, but ANOVA does not tell which Borough and time (years) are significantly different from each other. To know the pairs of significant different Borough and time (years), perform multiple pairwise comparison (Post-hoc comparison) analysis using Tukey’s HSD test.
+
+• The null hypothesis is that there are no statistical difference between each groups.
+
+![alt text](NewYorkCity_Education/image/boxplot_econ_ANOVA.jpeg)
 
 - All the years are statistically different to each other by its economic need index by it's p value which is less than 0.05. 
+
+![alt text](NewYorkCity_Education/image/Tukey.jpeg)
+![alt text](NewYorkCity_Education/image/Tukey2.jpeg)
+![alt text](NewYorkCity_Education/image/Tukey3.jpeg)
+![alt text](NewYorkCity_Education/image/Tukey4.jpeg)
 - All boroughs are statisticall different to each other by its ecoonomic need index by it's p value which is less than 0.05. 
 
+Tableau Dash Board:
+https://public.tableau.com/app/profile/taehyun.yoon/viz/NYCDATA_16676552294860/Dashboard1?publish=yes
 
 # 5. Preprocessing
 • Feature Engineering
@@ -95,16 +114,23 @@ The RMSE scores decreased gradually. Catboost had the best RMSE score therefore,
 
 
 # 7. Evaluation 
+Cat Boost is the best model that performed with a RMSE value of 4.44
+
+![alt text](NewYorkCity_Education/image/model_eval.jpeg)
+
 These are the feature importance. 
 
-The feature importance Visualization is used with the SHAP values. SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. 
+The feature importance Visualization can be done using SHAP values. SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. 
+
+![alt text](NewYorkCity_Education/image/SHAP_bar.jpeg)
 
 But SHAP values do not provide causality it just tells the contribution. So I had to make sure what determines the economic need index and use SHAP for visualization purposes. 
 
 The descening order of the SHAP value: # White -> # English Language Learners -> Year 2016-2017.
 
-
 # 8. Solution
+
+![alt text](NewYorkCity_Education/image/Bronx_Staten.jpeg)
 
 I provided three possible solutions to decrease the borough - Bronx. Through Exploratory Data Analysis, I figured the population of white, hispanic, English Learners, grades between 9 - 12 were the major difference between boroughs with high economic need index and low economic need index. So I did some experiments over these values. I adjusted these variables and used my machine learning model to estimate the economic need index. 
 
@@ -115,17 +141,16 @@ From decreasing the economic need index from 84 to 76 by decreasing the scale of
 The main goal of this project was to build a predictive regression model that can predict the economc need index and make conclusions to inform the results to NYC.
 
 3 possible solutions which can help decrease the economic need index.
-
-By increasing the white population by 0.1 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.069
-
 Increase the number of white people
-By decreasing the black population by 0.3 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.015
+• By increasing the white population by 0.1 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.069
 
 Decrease the number of black and hispanic people
-By decreasing the hispanic population by 0.15 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.1
+• By decreasing the black population by 0.3 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.015
+
+• By decreasing the hispanic population by 0.15 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.1
 
 Decrease the number of english learners
-By decreasing the english learners by 0.2 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.08
+• By decreasing the english learners by 0.2 in the given condition where mean = 0 and std = 1, there was a decrease in economic need index by 0.08
 
 
 
