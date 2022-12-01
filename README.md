@@ -44,8 +44,6 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 • Borough Analysis
 - Visualized the relationship between Boroughs and Economic Need Index from years 2016 to 2021. 
 
-![alt text](NewYorkCity_Education/image/piechart_all_years.jpeg)
-
 - The descending order of economic need index is Bronx -> Brooklyn -> Manhattan -> Queens -> Staten Island
 
 ![alt text](NewYorkCity_Education/image/piechart_all_years.jpeg)
@@ -75,6 +73,9 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 
 
 • Two tailed ANOVA test
+
+![alt text](NewYorkCity_Education/image/ANOVA_jpeg.png)
+
 - Borough and Year
 - The p value obtained from ANOVA analysis for Borough, years, and Economic Need Index are statistically significant (p<0.05). We conclude that type of Borough significantly affects the Economic Need Index outcome, time (years) significantly affects the Economic Need Index outcome, and interaction of both Borough and time (years) significantly affects the yield outcome.
 
@@ -86,7 +87,8 @@ Now, we know that Borough and time (years) differences are statistically signifi
 
 • The null hypothesis is that there are no statistical difference between each groups.
 
-![alt text](NewYorkCity_Education/image/ANOVA.jpeg)
+![alt text](NewYorkCity_Education/image/boxplot_econ_ANOVA.jpeg)
+
 - All the years are statistically different to each other by its economic need index by it's p value which is less than 0.05. 
 
 ![alt text](NewYorkCity_Education/image/Tukey.jpeg)
