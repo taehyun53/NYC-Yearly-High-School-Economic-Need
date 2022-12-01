@@ -123,9 +123,11 @@ Cat Boost is the best model that performed with a MAE value of 4.44
 
 These are the feature importance. 
 
+![alt text](NewYorkCity_Education/image/SHAP_3.jpeg)
+
 The feature importance Visualization can be done using SHAP values. SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. 
 
-![alt text](NewYorkCity_Education/image/SHAP_bar.jpeg)
+![alt text](NewYorkCity_Education/image/SHAP_BAR2.jpeg)
 
 But SHAP values do not provide causality it just tells the contribution. So I had to make sure what determines the economic need index and use SHAP for visualization purposes. 
 
