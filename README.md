@@ -100,7 +100,13 @@ https://public.tableau.com/app/profile/taehyun.yoon/viz/NYCDATA_16676552294860/D
 # 5. Preprocessing
 • Feature Engineering
 - Train/Validation/Test set are divided in a 80/10/10 ratio.
-- Numeric features - scaling - Standard Scaler
+- Numeric features 
+  - scaling 
+    - 1. Robust Scaler -> Standard Scaler
+    - 2. Robust Scaler
+    
+Some say that robust scaling(removes outliers)  and then standard scaling(converting into units by getting rid of mean value and std = 1) can give better results. But you never know until you try it out first. 
+
 - Categorical features - encoding - One Hot Encoding
 
 
@@ -113,13 +119,16 @@ Used Optuna (software framework for hyperparamter tuning) to perform Bayesian Op
 Process:
 • Started with the linear regression model -> decision tree regressor -> Catboost(boosting) -> Neural Network(Multilayer Perceptron)
 
-The MAE scores decreased gradually. Catboost had the best MAE score therefore, Catboost is the best performing model. Multilayer perceptron showed overfitting and the other two models (linear regressiona dn decision tree) showed higher MAE value than CatBoost. 
+The scores decreased gradually. Catboost had the best MAE score therefore, Catboost is the best performing model. Multilayer perceptron showed overfitting and the other two models (linear regressiona dn decision tree) showed higher MAE value than CatBoost. 
 
 
 # 7. Evaluation 
-Cat Boost is the best model that performed with a MAE value of 4.44
 
-![alt text](NewYorkCity_Education/image/MAE_result.jpeg)
+![alt text](NewYorkCity_Education/image/RC+(RC+SC).jpeg)
+
+Cat Boost is the best model that performed with a MAE value of 1.7
+
+![alt text](NewYorkCity_Education/image/RC_vs_Rc+Sc.jpeg)
 
 These are the feature importance. 
 
