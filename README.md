@@ -97,7 +97,7 @@ Now, we know that Borough and time (years) differences are statistically signifi
 Tableau Dash Board:
 https://public.tableau.com/app/profile/taehyun.yoon/viz/NYCDATA_16676552294860/Dashboard1?publish=yes
 
-# 5. Preprocessing
+# 5. Preprocess
 • Feature Engineering
 - Train/Validation/Test set are divided in a 80/10/10 ratio.
 - Numeric features 
