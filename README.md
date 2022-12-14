@@ -149,9 +149,9 @@ The descening order of the SHAP value: # White -> # English Language Learners ->
 
 Now it's time to give out a possible solution for Bronx. I have to remember that the main goal of this project was to build a predictive regression model that can predict the economc need index and make conclusions to inform the results to NYC.
 
-I provided four possible solutions to decrease the borough - Bronx. Through Exploratory Data Analysis, I figured the population of white, hispanic, English Learners, grades between 9 - 12 were the major difference between boroughs with high economic need index and low economic need index. So I did some experiments over these values. I adjusted these variables and used my machine learning model to estimate the economic need index. 
+I provided four possible solutions to decrease the borough - Bronx. Through Exploratory Data Analysis, I figured the population of white, hispanic, English Learners, grades between 9 - 12 were the major difference between boroughs with high economic need index and low economic need index. So I did some experiments over these values. I adjusted these variables and used my CatboostRegressor model to predict the economic need index for the adjusted values.
 
-4 possible solutions which can help decrease the economic need index:
+## 4 solutions which can help decrease the economic need index:
 
 Increase the number of white people
 • By increasing the white population by 0.3 in the Standardized condition where mean = 0 and std = 1, there was a decrease in economic need index by 8.35%
