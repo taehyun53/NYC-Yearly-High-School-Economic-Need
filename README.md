@@ -153,15 +153,15 @@ I provided four possible solutions to decrease the borough - Bronx. Through Expl
 
 ## 4 solutions which can help decrease the economic need index:
 
-### 1. Increase the number of white people
+### 1. Increase the number of White population
 
 • By increasing the white population by 0.3 in the Standardized condition where mean = 0 and std = 1, there was a decrease in economic need index by 8.35%
 
-### 2. Decrease the number of black people population
+### 2. Decrease the number of Black population
 
 • Decreasing the black people population by 0.4 decreases the economic need index by 2% in the standardized condition where mean = 0 and std = 1.
 
-### 3.Decrease the number of black people population
+### 3.Decrease the number of Hispanic population
 
 • Decreasing the Hispanic population by 0.4, Economic need index is decreased by 0.783% in the standardized condition (mean = 0 and std = 1).
 
