@@ -74,9 +74,8 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 ![alt text](NewYorkCity_Education/image/ANOVA_jpeg.png)
 
 - Borough and Year
-- The p value obtained from ANOVA analysis for Borough, years, and Economic Need Index are statistically significant (p<0.05). We conclude that type of Borough significantly affects the Economic Need Index outcome, time (years) significantly affects the Economic Need Index outcome, and interaction of both Borough and time (years) significantly affects the yield outcome.
 
-![alt text](NewYorkCity_Education/image/scatter_sex.jpeg)
+- The p values obtained from ANOVA test for Borough, years, and Economic Need Index were statistically significant (p<0.05). We conclude that each Boroughs significantly affects the Economic Need Index outcome, time (years) significantly affects the Economic Need Index outcome, and both Borough and time (years) as a group significantly affects the yield outcome.
 
 
 • Multiple pairwise comparisons (Post-hoc test) Permalink¶
