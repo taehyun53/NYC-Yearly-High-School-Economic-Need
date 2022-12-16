@@ -94,7 +94,7 @@ Now, we know that Borough and time (years) differences are statistically signifi
 - All boroughs are statisticall different to each other by its ecoonomic need index by it's p value which is less than 0.05. 
 
 Tableau Dash Board:
-https://public.tableau.com/app/profile/taehyun.yoon/viz/NYCDATA_16676552294860/Dashboard1?publish=yes
+https://public.tableau.com/views/Poverty-Econ-NYC/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 # 5. Preprocess
 • Feature Engineering
