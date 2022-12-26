@@ -17,7 +17,7 @@ Used a data sheet with demographics for 1831 schools from years 2016 - 2021. The
 • Used Describe() and Info() functions to see the types of columns and the statistical summary for numeric values. 
 - Changed the data types for columns that weren't having 
 
-• NaN's and Duplicated rows - There were 0 NaN values and no duplicate rows. However, if there were, for the numeric values, it would be better to input mean or median. If the NaN's were categorical, it would be good to use imputation. 
+• NaN's and Duplicated rows - There were 0 NaN values and no duplicate rows. However, if there were, for the numeric values, it would be better to imput with median values because of the presence of outliers. For the categorical features, I would simply use the df['col name'].mode(). 
 
 • Column restructuring and filling or removing data gaps 
 - 1. Switched the numeric values into percentages for simpler analysis.
