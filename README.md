@@ -1,5 +1,5 @@
 # New York City Poverty Analysis
-## Code in 
+## To see the code, go to NewYorkCity_Education -> Notebook
 
 ![alt text](https://static01.nyt.com/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
 
