@@ -1,7 +1,7 @@
 # New York City Poverty Analysis
+## Code in 
 
-![alt text](https://static01.nyt.com/
-/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
+![alt text](https://static01.nyt.com/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
 
 Economic Need Index is the measure of the socioeconomic circumstances of a school’s population and the score is assigned to each school on the number of students eligible for free lunch or public assistance or who live in temporary housing. Through the Demographic Snapshot District data, I extracted useful insights and created visualizations through Tableau, matplotlib and Seaborn. I also performed statistical tests and built machine learning models that can predict the economic need index. 
 
