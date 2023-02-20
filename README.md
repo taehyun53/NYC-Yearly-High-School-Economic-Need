@@ -1,5 +1,8 @@
 # New York City Poverty Analysis
 ## To see the code, go to NewYorkCity_Education -> Notebook
+## Presentation Link (PowerBI Dashboard Included)
+https://docs.google.com/presentation/d/1WPH86ztb6moK_XAzu9qXV_ljrouvJ34cMiXuZLB_t68/edit?usp=sharing
+
 
 ![alt text](https://static01.nyt.com/2020/12/09/nyregion/10nytoday1/10nytoday1-mediumSquareAt3X.jpg)
 
@@ -92,9 +95,6 @@ Now, we know that Borough and time (years) differences are statistically signifi
 ![alt text](NewYorkCity_Education/image/Tukey3.jpeg)
 ![alt text](NewYorkCity_Education/image/Tukey4.jpeg)
 - All boroughs are statisticall different to each other by its ecoonomic need index by it's p value which is less than 0.05. 
-
-Presentation Link (PowerBI Dashboard Included)
-https://docs.google.com/presentation/d/1WPH86ztb6moK_XAzu9qXV_ljrouvJ34cMiXuZLB_t68/edit?usp=sharing
 
 # 5. Preprocess
 • Feature Engineering
